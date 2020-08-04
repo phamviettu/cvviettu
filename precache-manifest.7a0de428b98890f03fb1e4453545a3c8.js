@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc16859a69f6e8b2243be18e62de69e8",
+    "revision": "1cb4b1517e9dacab1cf7460c5abc94d9",
     "url": "/cvviettu/index.html"
   },
   {
-    "revision": "07f5cc9127e3d613ff30",
-    "url": "/cvviettu/static/css/main.857e8eb6.chunk.css"
+    "revision": "a6943f3f9d77648d4330",
+    "url": "/cvviettu/static/css/main.d0d10a03.chunk.css"
   },
   {
     "revision": "87cc4b7095fca63a6dd2",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cvviettu/static/js/2.72b08905.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "07f5cc9127e3d613ff30",
-    "url": "/cvviettu/static/js/main.53f557ef.chunk.js"
+    "revision": "a6943f3f9d77648d4330",
+    "url": "/cvviettu/static/js/main.0d4c732b.chunk.js"
   },
   {
     "revision": "20e133640411cdac7ce1",
