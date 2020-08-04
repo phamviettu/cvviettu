@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cvviettu/static/css/main.5f361e03.chunk.css",
+    "main.js": "/cvviettu/static/js/main.dd4974f7.chunk.js",
+    "main.js.map": "/cvviettu/static/js/main.dd4974f7.chunk.js.map",
+    "runtime-main.js": "/cvviettu/static/js/runtime-main.6408eae8.js",
+    "runtime-main.js.map": "/cvviettu/static/js/runtime-main.6408eae8.js.map",
+    "static/js/2.ad74791f.chunk.js": "/cvviettu/static/js/2.ad74791f.chunk.js",
+    "static/js/2.ad74791f.chunk.js.map": "/cvviettu/static/js/2.ad74791f.chunk.js.map",
+    "index.html": "/cvviettu/index.html",
+    "precache-manifest.94501802a0acda40cacac146319b274a.js": "/cvviettu/precache-manifest.94501802a0acda40cacac146319b274a.js",
+    "service-worker.js": "/cvviettu/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/cvviettu/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.ad74791f.chunk.js.LICENSE.txt": "/cvviettu/static/js/2.ad74791f.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/cvviettu/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6408eae8.js",
+    "static/js/2.ad74791f.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.dd4974f7.chunk.js"
+  ]
+}
