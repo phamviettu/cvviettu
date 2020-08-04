@@ -1,7 +1,6 @@
 @mixin main_container($width, $height) {
     width: $width;
     height: $height;
-    margin: auto;
     border-radius: 15px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -10,37 +9,42 @@
     width: $width;
     height: $height;
 }
+.main_title{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
 .container_homePage {
     @include w-h(100%,1000px);
     padding-top: 50px;
 }
 .container_info {
-    @include main_container(800px,260px);
+    width: 960px;
+    margin: auto;
     display: flex;
     flex-direction: row;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 .container_info_avata {
-    padding-top: 30px;
-    @include w-h(270,200px);
-}
-.container_info_avata_image {
-    margin: 0px 30px 0px 30px;
-    border-radius: 360px;
-    background-color: white;
-    @include w-h(200px,200px);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
     justify-content: center;
     align-items: center;
-    
+}
+.container_info_avata_image {
+    border-radius: 360px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .image_avata {
     @include w-h(200px,200px);
     border-radius: 360px;
 }
 .container_info_content {
-    @include w-h(530px,200px);
-    margin: 30px 30px 0px 0px;  
+    height: 250px;
+    padding-top: 20px;
 }
 .info_titleName {
     height: 35px;
@@ -48,7 +52,6 @@
     font-weight: bold;
 }
 .container_info_content_main {
-    @include w-h(510px,100px);
     display: flex;
     flex-direction: row;
 }
@@ -82,3 +85,21 @@
 .socaial_icon {
     @include w-h(34px,34px);
 }
+.container_skill {
+    @include w-h(1000px,300px);
+    margin: auto; 
+}
+.container_skill_c1 {
+    background-color: rebeccapurple;
+    height: 300px;
+    border-radius: 15px;
+    margin: auto;
+}
+.container_skill_c2 {
+    background-color: orange;
+    height: 300px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+
