@@ -39,7 +39,7 @@ export default class HomePage extends Component {
                                     <div className = "name_info_hide"></div>
                                     <div className = "container_info_content row m-0 mt-2">
                                         <div className = "info_content_title">Điện thoại</div>
-                                        <div className = "info_content_value">0987654321</div>
+                                        <div className = "info_content_value">0946841587</div>
                                     </div>
                                     <div className = "container_info_content row m-0 mt-2">
                                         <div className = "info_content_title">Email</div>
@@ -183,7 +183,7 @@ export default class HomePage extends Component {
                                         <Timeline>
                                             <Timeline.Item color="red">Nói hơi ít (nói với người thân thì lại nói rất nhiều)</Timeline.Item>
                                             <Timeline.Item color="red">Dễ tự ái</Timeline.Item>
-                                            <Timeline.Item color="red">Hơi nhát gái :((</Timeline.Item>
+                                            <Timeline.Item color="red">Hơi nhát gái</Timeline.Item>
                                         </Timeline>
                                     </div>
                             </div>
