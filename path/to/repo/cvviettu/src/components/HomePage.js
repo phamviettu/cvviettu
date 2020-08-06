@@ -182,7 +182,6 @@ export default class HomePage extends Component {
                                         <div className = "mb-4">ĐIỂM YẾU</div>
                                         <Timeline>
                                             <Timeline.Item color="red">Nói hơi ít (nói với người thân thì lại nói rất nhiều)</Timeline.Item>
-                                            <Timeline.Item color="red">Dễ tự ái</Timeline.Item>
                                             <Timeline.Item color="red">Hơi nhát gái</Timeline.Item>
                                         </Timeline>
                                     </div>
