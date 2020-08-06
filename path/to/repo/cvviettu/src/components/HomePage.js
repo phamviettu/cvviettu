@@ -91,7 +91,7 @@ export default class HomePage extends Component {
                             <div className = "row col-md-6 m-0">
                                 <div className = "col-sm-6 container_e_6">
                                     <div className = "container_e_7 mt-2">
-                                        <Progress type="circle" percent={40} />
+                                        <Progress type="circle" percent={55} />
                                     </div>
                                     <div className = "title_circle">Tiếng anh</div>
                                 </div>
