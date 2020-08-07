@@ -85,7 +85,7 @@
     // background-color: darkorange;
 }
 .socaial_icon {
-    @include w-h(2.5em,2.5em);
+    @include w-h(2.3em,2.3em);
 }
 .info_content_title_socaial_1 {
     @extend .info_content_title;
@@ -113,10 +113,13 @@
     font-weight: bold;
     text-align: center;
 }
+.text_btn {
+    cursor: pointer;
+}
 
 @media only screen and (max-width: 768px) {
     .image_avata {
-        width: 60%;
+        width: 50%;
     }
     .name_info{
         font-size: 1.5em;
