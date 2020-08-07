@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cvviettu/static/css/main.2f9fc016.chunk.css",
-    "main.js": "/cvviettu/static/js/main.fb7ae000.chunk.js",
-    "main.js.map": "/cvviettu/static/js/main.fb7ae000.chunk.js.map",
+    "main.js": "/cvviettu/static/js/main.63bd90b3.chunk.js",
+    "main.js.map": "/cvviettu/static/js/main.63bd90b3.chunk.js.map",
     "runtime-main.js": "/cvviettu/static/js/runtime-main.6408eae8.js",
     "runtime-main.js.map": "/cvviettu/static/js/runtime-main.6408eae8.js.map",
     "static/css/2.9c8c8187.chunk.css": "/cvviettu/static/css/2.9c8c8187.chunk.css",
     "static/js/2.55d97913.chunk.js": "/cvviettu/static/js/2.55d97913.chunk.js",
     "static/js/2.55d97913.chunk.js.map": "/cvviettu/static/js/2.55d97913.chunk.js.map",
     "index.html": "/cvviettu/index.html",
-    "precache-manifest.77c3268107a3aeb86543ddc1d81a0df4.js": "/cvviettu/precache-manifest.77c3268107a3aeb86543ddc1d81a0df4.js",
+    "precache-manifest.1dd5f8fec096eb84e89c1b21ae71a04b.js": "/cvviettu/precache-manifest.1dd5f8fec096eb84e89c1b21ae71a04b.js",
     "service-worker.js": "/cvviettu/service-worker.js",
     "static/css/2.9c8c8187.chunk.css.map": "/cvviettu/static/css/2.9c8c8187.chunk.css.map",
     "static/css/main.2f9fc016.chunk.css.map": "/cvviettu/static/css/main.2f9fc016.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.9c8c8187.chunk.css",
     "static/js/2.55d97913.chunk.js",
     "static/css/main.2f9fc016.chunk.css",
-    "static/js/main.fb7ae000.chunk.js"
+    "static/js/main.63bd90b3.chunk.js"
   ]
 }
