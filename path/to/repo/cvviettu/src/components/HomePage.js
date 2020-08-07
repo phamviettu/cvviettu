@@ -66,9 +66,9 @@ export default class HomePage extends Component {
                                 <div className = "mt-2">JavaScript</div>
                                 <Progress percent={80} status="active" />
                                 <div className = "mt-2">Java</div>
-                                <Progress percent={50} status="active" />
+                                <Progress percent={55} status="active" />
                                 <div className = "mt-2">C</div>
-                                <Progress percent={40} status="active" />
+                                <Progress percent={50} status="active" />
                             </div>
                         <div className = "col-sm-1 mt-5">
                             
@@ -76,11 +76,11 @@ export default class HomePage extends Component {
                             <div className = "col-sm container_e_3 mt-5 mb-4">
                                 <div className = "title_e mt-2">FRAMEWORK</div>
                                 <div className = "mt-2">Node Js</div>
-                                <Progress percent={75} status="active" />
+                                <Progress percent={70} status="active" />
                                 <div className = "mt-2">React Js</div>
-                                <Progress percent={65} status="active" />
+                                <Progress percent={80} status="active" />
                                 <div className = "mt-2">React Native</div>
-                                <Progress percent={90} status="active" />
+                                <Progress percent={85} status="active" />
                                 <div className = "mt-2">Bootstrap</div>
                                 <Progress percent={70} status="active" />
                             </div>
@@ -124,7 +124,7 @@ export default class HomePage extends Component {
                             <div className = "title_e mt-2">HỌC TẠI TRƯỜNG</div>
                             <div className = "mt-4">➤ Hiện tại đang là học sinh tại trường cao đẳng nghề FPT Polytechnic Tây Nguyên.</div>
                             <div className = "mt-2">➤ Các môn được học ở trường tiếng anh, photoshop, cơ sở dữ liệu, lập trình Java, lập trình với Javascript, lập trình Android, thiết kế web với HTML5&CSS3, lập trình mobile đa nền tảng, lập trình sever cho Android, kỹ năng làm việc...   </div>
-                            <div className = "mt-2">➤ Các dự án làm tại trường <a href = "#">dự án mẫu</a>, <a href = "#">dự án 1</a>, <a href = "#">dự án 2</a>.</div>
+                            <div className = "mt-2">➤ Các dự án làm tại trường <a href = "#">dự án Coffee</a>, <a href = "#">dự án AppChat</a>, <a href = "#">dự án tốt nghiệp</a>.</div>
                             <div className = "mt-2 mb-3">➤ Ngoài ra còn tìm hiểu thêm một số ngôn ngữ khác <a href = "https://www.python.org/" target="_blank">Python</a>, <a href = "https://developer.apple.com/swift/" target="_blank">Swift</a>, <a href = "https://kotlinlang.org/" target="_blank">Kotlin</a> và các công nghệ khác như <a href = "https://www.docker.com/" target="_blank">Docker</a>, <a href = "https://quasar.dev/" target="_blank">Quasar</a>, <a href = "https://sass-lang.com/" target="_blank">SASS & SCSS</a>.</div>
                         </div>
                         <div className = "col-sm-6 mt-5">
@@ -147,10 +147,44 @@ export default class HomePage extends Component {
                     <div className = "main_title mt-5 col-sm-12">KINH NGHIỆM</div>
                     <div className = "container_boby mt-5">
                         <Timeline>
-                            <Timeline.Item>➤ Tham gia dự án mẫu của của lớp vào cuối kỳ 3 do cô Đỗ Thị Bích Vân là giáo viên hướng dẫn sản phẩm là ứng dụng other và quản lý quán coffee được viết bằng ngôn ngữ Android, phần mềm làm việc là Android Studio mục tiêu đề ra là làm những chức năng cần thiết của 1 ứng dụng other và quản lý như các sản phẩm trên thị trường, những công việc phụ trách là viết giao diện màn hình chào, màn hình đăng nhập đăng ký, màn hình thêm xóa sửa sản phẩm, màn hình other, màn hình thanh toán, đóng góp ý kiến để cải thiện ứng dụng và tham gia xây dựng server. <br/>➤ Sản phẩm hoàn thiệt được 90% và được 9 điểm khi bảo vệ cuối môn tuy nhiên vẫn còn một số lỗi trong quá trình bảo vệ và được cả nhóm hoàn thiện.<br/>➤ Kết luận vì là dự án đầu tiên tham gia làm việc nhóm nên còn có một số khó khăn trong quá trình làm việc và đã rút được bài học thông qua dự án này.<br/>➤ <a href = "#">Link sản phẩm</a>.</Timeline.Item>
-                            <Timeline.Item>➤ Làm dự án 1 vào cuối kỳ 4 do cô Đỗ Thị Bích Vân là giáo viên giám sát đây là dự án làm cá nhân, sản phẩm là ứng dụng viết tin nhắn và gọi video, ứng dụng được viêt bằng ngôn ngữ Android và FireBase, phần mềm làm việc là Android Studio, sản phẩm gồm những chức năng tìm bạn, kết bạn, hủy kết bạn, gợi ý kết bạn, thêm vào danh sách đen (chặn tin nhắn), ẩn danh (ẩn thông tin cá nhân), nhắn tin (text, hình ảnh, icon), gỡ nội dung tin nhắn theo mốc thời gian, gọi điện video, gửi thông báo đến thiết bị, thêm xóa sửa thông tin cá nhân (nội dựng, hình ảnh)...<br/>➤ Khó khăn: vì đây là dự án làm cá nhân nên số lượng công việc rất nhiều nhưng qua dự án này biết thêm những công nghệ mới như FireBase, ChatVideo và học được cách quản lý thời gian khi làm việc.<br/>➤ <a href = "#">Link sản phẩm</a>.</Timeline.Item>
-                            <Timeline.Item>➤ Ngoài ra còn làm thêm một số dự án cá nhân như ứng dụng và website quản lý bán hàng thiết bị điện. <br/>➤<a href = "#">Link sản phẩm</a>.</Timeline.Item>
-                            <Timeline.Item>➤ Dự án 2 (đang làm)</Timeline.Item>
+                            <Timeline.Item> 
+                                <strong>➤ Dự án Coffee (15/4/2019-19/5/2019).</strong><br/>   
+                                ● Tham gia dự án Coffee của của lớp vào cuối kỳ 3 do cô Đỗ Thị Bích Vân là giáo viên hướng dẫn.<br/>
+                                ● Sản phẩm là ứng dụng order và quản lý quán coffee được viết bằng ngôn ngữ Java, server Nodejs, công nghệ lưu trữ MySql, phần mềm làm việc 
+                                là Android Studio mục tiêu đề ra là làm những chức năng cần thiết của 1 ứng dụng order và quản lý     
+                                như các sản phẩm trên thị trường, những công việc mà tôi phụ trách là viết giao diện màn hình chào, 
+                                màn hình đăng nhập đăng ký, màn hình thêm xóa sửa sản phẩm, màn hình order, màn hình thanh toán, 
+                                đóng góp ý kiến để cải thiện ứng dụng và tham gia xây dựng server. <br/>
+                                ● Sản phẩm hoàn thiện tốt tuy nhiên 
+                                vẫn còn một số lỗi trong quá trình chạy thực tế và được cả nhóm cải thiện sau đó.<br/>
+                                ● Đây là dự án đầu tiên mà tôi tham gia làm việc nhóm nên còn có một số khó khăn 
+                                trong quá trình làm việc tuy nhiên thông qua dự án này tôi đã rút được bài học về cách làm việc nhóm, kỹ năng thuyết trình và cải thiện ở những dự án tiếp theo.<br/>
+                                ● <a href = "#">Link sản phẩm</a>.
+                            </Timeline.Item>
+                            <Timeline.Item>
+                                <strong>➤ Dự án AppChat (21/7/2019-25/9/2019).</strong><br/>
+                                ● Dự án AppChat được làm vào cuối kỳ 4, cô Đỗ Thị Bích Vân là giáo viên giám sát đây là dự án làm cá nhân.<br/> 
+                                ● Sản phẩm là ứng dụng viết tin nhắn và gọi video theo thời gian thực, ứng dụng được viêt bằng ngôn ngữ Java và công nghệ lưu trữ dữ liệu FireBase, 
+                                phần mềm làm việc là Android Studio, sản phẩm gồm những chức năng tìm bạn, kết bạn, hủy kết bạn, 
+                                gợi ý kết bạn, thêm vào danh sách đen (chặn tin nhắn), ẩn danh (ẩn thông tin cá nhân), 
+                                nhắn tin (text, hình ảnh, icon), gỡ nội dung tin nhắn theo mốc thời gian, gọi điện video, 
+                                gửi thông báo đến thiết bị, thêm xóa sửa thông tin cá nhân (nội dựng, hình ảnh).<br/>
+                                ● Thông qua dự án này tôi đã cải thiện khả năng tìm kiếm tài liệu về những công nghệ mới như FireBase, Video calls và quản lý thời gian khi làm việc.
+                                <br/>➤ <a href = "#">Link sản phẩm</a>.
+                            </Timeline.Item>
+                            <Timeline.Item>     
+                                <strong>➤ Dự án Quản lý kho hàng thiết bị điện (15/4/2019-27/5/2020).</strong><br/>
+                                ● Đây dự án cá nhân mà tôi làm cho gia đình.<br/>
+                                ● Sản phẩm gồm 2 phần là ứng dụng và website dùng để quản lý kho hàng thiết bị điện, 
+                                ứng dụng và website được xây dựng từ 2 framework React Native cho ứng dụng và React Js cho website, 
+                                các công nghệ mà tôi sử dụng là GraphQL, Docker, Prisma, ứng dụng dùng để kiểm tra giá bán của sản phẩm, 
+                                kiểm tra bảo hành và thời gian bảo hành của sản phẩm thông qua việc quét mã QR, 
+                                chức năng của website gồm thêm, xóa, sửa thông tin sản phẩm thông kê theo ngày, tuần, tháng, năm,                                     
+                                lưu lịch sử mua hàng, báo cáo số lượng sản phẩm trong kho hàng.<br/>
+                                ● Sản phẩm hoạt động tốt đem lại sự thuận tiện cho người bán.<br/>
+                                ● <a href = "#">Link sản phẩm</a>.
+                            </Timeline.Item>
+                            <Timeline.Item>➤ <strong>Dự án tốt nghiệp.</strong></Timeline.Item>
                         </Timeline>
                     </div>
                     <div className = "main_title col-sm-12">THÔNG TIN KHÁC</div>
@@ -170,7 +204,7 @@ export default class HomePage extends Component {
                             <div className = "title_e mt-2 mb-4">ĐIỂM MẠNH VÀ ĐIỂM YẾU</div>
                             <div className = "row">
                                     <div className = "col-sm-6">
-                                        <div className = "mb-4">ĐIỂM MẠNH</div>
+                                        <div className = "mb-4"><strong>ĐIỂM MẠNH</strong></div>
                                         <Timeline>
                                             <Timeline.Item color="green">Trung thực</Timeline.Item>
                                             <Timeline.Item color="green">Sáng tạo</Timeline.Item>
@@ -179,10 +213,10 @@ export default class HomePage extends Component {
                                         </Timeline>
                                     </div>
                                     <div className = "col-sm-6">
-                                        <div className = "mb-4">ĐIỂM YẾU</div>
+                                        <div className = "mb-4"><strong>ĐIỂM YẾU</strong></div>
                                         <Timeline>
-                                            <Timeline.Item color="red">Nói hơi ít (nói với người thân thì lại nói rất nhiều)</Timeline.Item>
-                                            <Timeline.Item color="red">Hơi nhát gái</Timeline.Item>
+                                            <Timeline.Item color="red">Nói hơi ít</Timeline.Item>
+                                            <Timeline.Item color="red">Hơi rụt rè</Timeline.Item>
                                         </Timeline>
                                     </div>
                             </div>
