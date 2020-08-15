@@ -191,7 +191,7 @@ export default class HomePage extends Component {
                     </div> 
                     <div data-aos="fade-up" className = "main_title mt-5 col-sm-12">HỌC VẤN</div>
                     <div className = "row container_boby">    
-                        <div data-aos="fade-up" className = "col-sm-6 container_e_8 mt-5">
+                        <div data-aos="fade-right" className = "col-sm-6 container_e_8 mt-5">
                             <div className = "title_e mt-2">HỌC TẠI TRƯỜNG</div>
                             <div className = "mt-4">➤ Tốt nghiệp <span className = "text-primary text_btn" onClick = {() => this.showModal("Bằng")}>bằng...</span> trường cao đẳng nghề FPT Polytechnic Tây Nguyên vào 20/12/2020.</div>
                             <div className = "mt-2">➤ Các môn được học ở trường tiếng anh, photoshop, cơ sở dữ liệu, lập trình Java, lập trình với Javascript, lập trình Android, thiết kế web với HTML5&CSS3, lập trình mobile đa nền tảng, lập trình sever cho Android, kỹ năng làm việc...   </div>
@@ -199,7 +199,7 @@ export default class HomePage extends Component {
                             <div className = "mt-2">➤ Ngoài ra còn tìm hiểu thêm một số ngôn ngữ khác <a href = "https://www.python.org/" target="_blank">Python</a>, <a href = "https://developer.apple.com/swift/" target="_blank">Swift</a>, <a href = "https://kotlinlang.org/" target="_blank">Kotlin</a> và các công nghệ khác như <a href = "https://www.docker.com/" target="_blank">Docker</a>, <a href = "https://quasar.dev/" target="_blank">Quasar</a>, <a href = "https://sass-lang.com/" target="_blank">SASS & SCSS</a>.</div>
                             <div className = "mt-2 mb-3">➤ <span className = "text-primary text_btn" onClick = {() => this.showModal("Điểm")}>Điểm của tôi</span>.</div>
                         </div>
-                        <div data-aos="fade-up" className = "col-sm-6 mt-5">
+                        <div data-aos="fade-left" className = "col-sm-6 mt-5">
                             <Timeline mode = "alternate">
                                 <Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
                                     Tốt nghiệp cấp 3 trường thpt Cư M'gar (05/05/2017).
@@ -331,7 +331,8 @@ export default class HomePage extends Component {
                             null
                         }
                     </Modal>  
-            </div>    
+            </div>
+            //GENERATE_SOURCEMAP=false &&     
         );
     }
 }
