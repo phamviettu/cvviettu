@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "177c1782a175bc3163d63f64667d7b90",
+    "revision": "bdde90daa960211b5a691d4ef53e4d47",
     "url": "/cvviettu/index.html"
   },
   {
-    "revision": "7351e9bd89a5b54ca13e",
-    "url": "/cvviettu/static/css/2.9c8c8187.chunk.css"
+    "revision": "7c0b9b706754d29407fd",
+    "url": "/cvviettu/static/css/2.6d50f315.chunk.css"
   },
   {
-    "revision": "ac589bae8e82e5698931",
+    "revision": "3b19ee898824200e841c",
     "url": "/cvviettu/static/css/main.d6c1dcb3.chunk.css"
   },
   {
-    "revision": "7351e9bd89a5b54ca13e",
-    "url": "/cvviettu/static/js/2.1bff6947.chunk.js"
+    "revision": "7c0b9b706754d29407fd",
+    "url": "/cvviettu/static/js/2.76b3061f.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/cvviettu/static/js/2.1bff6947.chunk.js.LICENSE.txt"
+    "url": "/cvviettu/static/js/2.76b3061f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ac589bae8e82e5698931",
-    "url": "/cvviettu/static/js/main.1fd45eab.chunk.js"
+    "revision": "3b19ee898824200e841c",
+    "url": "/cvviettu/static/js/main.009907a0.chunk.js"
   },
   {
     "revision": "20e133640411cdac7ce1",
