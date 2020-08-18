@@ -29,8 +29,11 @@
   "dependencies": {
     "antd": "^4.5.4",
     "aos": "^2.3.4",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
     "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.3.0",
+    "path": "^0.12.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "save-dev": "^0.0.1-security"
