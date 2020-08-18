@@ -31,7 +31,7 @@ module.exports = {
             }
         ]
     },
-    plugins: [htmlWebpackPlugin],
+    plugins: [new HtmlWebpackPlugin()],
     // devtool: 'cheap-module-eval-source-map',
     devtool: false,
     devServer: {
