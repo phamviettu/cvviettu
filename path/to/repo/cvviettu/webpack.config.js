@@ -5,7 +5,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, 'public'),
         filename: 'bundle.js',
-        publicPath: '/cvviettu/'
+        publicPath: '/'
     },
     module: {
         rules: [
@@ -29,13 +29,5 @@ module.exports = {
     devtool: false,
     devServer: {
         contentBase: path.join(__dirname, 'public')
-    },
-    plugins: [
-        new webpack.HotModuleReplacementPlugin(),
-        new HtmlWebpackPlugin({
-          template: './src/index.html',
-          filename: 'index.html',
-          inject: 'body'
-        })
-      ]
+    }
 }
