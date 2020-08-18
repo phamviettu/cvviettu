@@ -1,5 +1,10 @@
 const  path = require("path");
-const HtmlWebPackPlugin = require( 'html-webpack-plugin' );
+const HtmlWebPackPlugin = require("html-webpack-plugin");
+
+const htmlWebpackPlugin = new HtmlWebPackPlugin({
+  template: "./src/index.html",
+  filename: "./index.html"
+});
 
 module.exports = {
     entry: './src/index.js',
@@ -26,15 +31,10 @@ module.exports = {
             }
         ]
     },
+    plugins: [htmlWebpackPlugin],
     // devtool: 'cheap-module-eval-source-map',
     devtool: false,
     devServer: {
         contentBase: path.join(__dirname, 'public')
-    },
-    plugins: [
-        new HtmlWebPackPlugin({
-           template: path.resolve( __dirname, 'public/index.html' ),
-           filename: 'index.html'
-        })
-     ]
+    }
 }
