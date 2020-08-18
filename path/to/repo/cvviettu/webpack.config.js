@@ -29,5 +29,11 @@ module.exports = {
     devtool: false,
     devServer: {
         contentBase: path.join(__dirname, 'public')
-    }
+    },
+    plugins: [
+        new HtmlWebPackPlugin({
+           template: path.resolve( __dirname, 'public/index.html' ),
+           filename: 'index.html'
+        })
+     ]
 }
