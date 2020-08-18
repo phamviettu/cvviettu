@@ -24,7 +24,9 @@
     "deploy": "gh-pages -d build",
     "start": "webpack --mode=development",
     "build": "webpack --mode=production",
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production",
+    "webpack-dev-server": "webpack-dev-server"
   },
   "dependencies": {
     "antd": "^4.5.4",
